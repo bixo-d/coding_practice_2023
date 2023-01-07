@@ -23,8 +23,8 @@ Al igual que la cédula de identidad, el primer dígito del RIF es una letra, pa
 |-------|-----------------------|-------|
 | V     | Venezolano            |   1   |
 | E     | Extranjero            |   2   |
-| P     | Extranjero sin Cédula |   3   |
-| J     | Persona Jurídica      |   4   |
+| J     | Persona Jurídica      |   3   |
+| P     | Extranjero sin Cédula |   4   |
 | G     | Entes Gubernamentales |   5   |
 | C     | Consejo Comunal       |   6   |
 
