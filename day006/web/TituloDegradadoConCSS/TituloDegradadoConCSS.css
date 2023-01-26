@@ -1,0 +1,16 @@
+html {
+    background: black;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 6rem;
+    /* Las siguientes propiedades definen el fondo del área del título como un degradado. */
+    /* Este degradado puede ser cualquier tipo */
+    /* background: radial-gradient(red, blue); */
+    background: linear-gradient(90deg, red, blue);
+    /* esta propiedad limita el fondo sólo al texto */
+    background-clip: text;
+    /* esta propiedad hace que el texto sea transparente o igual al fondo */
+    color: transparent;
+}
