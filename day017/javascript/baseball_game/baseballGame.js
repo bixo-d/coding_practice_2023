@@ -24,8 +24,8 @@ var calPoints = function (ops) {
     // console.log("Array: ", temp);
     // console.log("Testing... ", temp.at(-1));
   });
-  temp.map((elem) => (result += elem));
-  return result;
+  return temp.reduce((sum, elem) => sum + elem, 0);
+//   result;
 };
 
 var ops = "5 2 C D +";
